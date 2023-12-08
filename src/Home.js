@@ -51,10 +51,10 @@ your hair?
 in-depth analysis of your hair and which
 products are best for you.
                 </div>
-                <a href="/test">
-                <div className="quiz-button">
-                    Bellu Hair Quiz
-                </div>
+                <a href="/test" style={{textDecoration:'none'}}>
+                    <div className="quiz-button">
+                        Bellu Hair Quiz
+                    </div>
                 </a>
             </div>
         </div>
@@ -153,7 +153,7 @@ function Start() {
                     <CheckList item={"Elasticity, Moisture, and Root Health Ratings"} />
                     <CheckList item={"Additional recommendations from analysts"} />
                 </div>
-                <a href="/test">
+                <a href="/test" style={{textDecoration:'none'}}>
                 <div className="start-button">
                     Get Started
                 </div>

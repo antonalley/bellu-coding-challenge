@@ -148,7 +148,7 @@
 .section.azure {
     position: relative;
     max-width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
     object-fit:fill;
     background: url('../images/Copy\ of\ Test\ Page\ Bottom\ Photo.jpeg') left/cover no-repeat;
     text-align: center;
