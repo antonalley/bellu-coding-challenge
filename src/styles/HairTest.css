@@ -1,0 +1,190 @@
+.section.free-test {
+    position: relative;
+    max-width: 100%;
+    height: 60vh;
+    object-fit:fill;
+    background: url('../images/Copy\ of\ Test\ Page\ 1st\ Photo.png') center/cover no-repeat;
+    text-align: center;
+    padding: 2rem; /* Adjust as needed */
+    color: var(--black) /* Text color */
+}
+
+.free-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.free-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free-quiz-button {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    width: max-content;
+    padding: 1em 2.5em;
+    border-radius: 1em;
+}
+
+.free-detail {
+    margin-top: 5em;
+}
+
+.free-detail div {
+    margin: 1em;
+}
+
+
+.section.custom-tests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--lightgray);
+    color: var(--black);
+    width: 100%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.test-options {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.test-options div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.test-img {
+    width: 25vw;
+    height: 25vw;
+    /* object-fit:cover; */
+}
+
+.option {
+    border-radius: 1em;
+    padding: 0.4em;
+}
+
+.side {
+    border: solid 1px var(--black);
+}
+
+.center {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+.section.package {
+    background-color: var(--lightgray);
+    text-align: center;
+}
+
+.package-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.package-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.09);
+    color: var(--black);
+    margin: 2em;
+    padding: 1.5em;
+}
+
+.package-tile.azurebundle {
+    background-color: var(--black);
+    color: var(--white)
+}
+
+.ptitle { font-size: 1.8em;}
+.pvalue {font-size: 3em;}
+.pbutton {
+    margin: 5px;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+    padding: 0.3em 2em;
+    border: solid 1px var(--black)
+}
+
+.azurebundle.pbutton {
+    margin: 5px;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+    padding: 0.3em 2em;
+    background-color: var(--white);
+    color: var(--black)
+}
+
+.check-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    text-align: start;
+    margin: 1em;
+}
+
+.section.azure {
+    position: relative;
+    max-width: 100%;
+    height: 70vh;
+    object-fit:fill;
+    background: url('../images/Copy\ of\ Test\ Page\ Bottom\ Photo.jpeg') left/cover no-repeat;
+    text-align: center;
+    padding: 2rem; /* Adjust as needed */
+    color: var(--black) /* Text color */
+}
+
+.azure-title {
+    font-size: 2em;
+}
+
+.azure-sub {
+    font-size: 1.5em;
+}
+
+.azure-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.azure-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.azure-detail div {
+    margin: 2em 0;
+}
+
+.subscribe-button {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}

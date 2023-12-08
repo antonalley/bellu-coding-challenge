@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--lightgray);
+    position: relative;
+}
+
+.menu {
+    width: max-content;
+}
+
+.navbar svg {
+    fill: var(--blue);
+    width: 2em;
+    height: 2em;
+}
+
+.menu-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: var(--lightgray);
+    z-index: 100;
+}
+.menu-options a {
+    text-decoration: none;
+}
+.menu-options div {
+    padding: 1em;
+    text-align: center;
+    color: var(--blue);
+}
+
+.menu-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    max-height: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** Footer **/
+.footer {
+    background-color: var(--gray);
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column div {
+    margin: 0.5em;
+}
+
+.col-title {
+    font-size: larger;
+    font-weight:400;
+    text-decoration: underline;
+}
+
+.brand-img img {
+    max-width: 25vw;
+}
+
+.copyright {
+    font-weight: 400;
+}

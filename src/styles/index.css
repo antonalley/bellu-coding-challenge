@@ -1,8 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Lora", sans-serif;
+  color: var(--black);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/** Bellu Brand Colors **/
+:root {
+  --lightgray: #f2f2f2;
+  --gray: #ccd1d7;
+  --blue: #778996;
+  --black: #3a3b3d;
+  --tan: #ede7df;
+  --white: #fefbf4;
+}
+
+/** Bellu Fonts **/
+
+@font-face {
+  font-family: "Lora";
+  src: local("Lora"), url(./Lora-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Fino Sans";
+  src: url(./Fino\ Sans\ Regular.otf);
+}
+
+
+.finofont {
+  font-family: "Fino Sans", "Lora", sans-serif;
+  font-style: thin;
+  font-weight: 400;
 }
